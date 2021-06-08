@@ -1,0 +1,33 @@
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 15rem;
+}
+
+.footer { 
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.searchbar {
+    margin-top: 100px;
+}
+
+a {
+    text-decoration: none;  
+}
+
+ul {
+    margin: 5px;
+    padding: 0;
+  }
+  li {
+    display: inline;
+    margin: 50px;
+  }
